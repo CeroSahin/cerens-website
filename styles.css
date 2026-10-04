@@ -6,53 +6,12 @@ body {
   color: #333;
 }
 
-header {
-  background: #e9e4e6;
-  color: #333;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-nav {
-  padding: 1rem;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-}
-
-nav ul li {
-  margin: 0 1rem;
-}
-
-main ul li::marker {
-  font-size: 1rem;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
 
 main {
   padding: 2rem;
   display: flex;
   flex-direction: column;
   margin-right: 2rem;
-}
-
-section {
-  width: 80%;
-  margin-bottom: 2rem;
-  background: #fff;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 a {
@@ -78,29 +37,6 @@ h1 {
   font-size: 40px;
 }
 
-.content {
-  display: none;
-  overflow: hidden;
-  background-color: #e9e4e6;
-  border: none;
-}
-
-.content p {
-  font-size: 14px;
-}
-
-.content ul {
-  list-style-type: none;
-  margin: 0;
-}
-
-.math-header {
-  height: 150px; /* Adjust the height as needed */
-  background-image: url("julia_set_transparent.png");
-  background-repeat: repeat; /* Repeats the image */
-  background-size: 180px 180px; /* Adjusts the size of each repeated image */
-  background-position: center;
-}
 
 .photo {
   height: 300px;
